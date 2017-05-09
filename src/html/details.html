@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/details.css">
+    <script type="text/javascript" src="../lib/require.js" data-main="../js/detailsConfig"></script>
+</head>
+<body>
+    <div id="index_header"></div>
+    <div class="detail">
+        <div class="center">
+            <div class="con-FangDa" id="fangdajing">
+               <div class="con-fangDaIMg">
+                    <!-- 正常显示的图片-->
+                    <img src="">
+                    <!-- 滑块-->  
+                    <div class="magnifyingBegin"></div>
+                    <!-- 放大镜显示的图片 -->
+                    <div class="magnifyingShow"><img src=""></div>
+                </div>
+              
+                <ul class="con-FangDa-ImgList">
+                    <!-- 图片显示列表 -->
+                    <li class="active"><img src="" data-bigimg=""></li>
+                    <li><img src="" data-bigimg=""></li>
+                    <li><img src="" data-bigimg=""></li>
+                    <li><img src="" data-bigimg=""></li>
+                    <li><img src="" data-bigimg=""></li>
+                </ul>
+            </div>
+        
+            <div class="content">
+                <p class="title"></p>
+                <p class="intro"></p>
+                <p class="price" id="price">价格<span>￥<strong></strong>.00</span></p>
+                <div class="num">
+                    数量
+                    <span></span>
+                    <a class="less"></a>
+                    <input type="text" value="1">
+                    <a class="add"></a>
+                    <span>库存<em>111</em></span>
+                </div>
+                <div class="city">
+                    送至<span>广东省-广州市-天河区</span><em>有货</em>
+                </div>
+                <div class="buy">
+                    <button id="btnBuyshop">加入购物车</button>
+                </div>
+                <div class="tips">
+                    <span>【温馨提示】</span>
+                    <span style="color:#6f6f6f;display: block;margin-left: 6px;padding-top: 2px;clear:left;">
+                        此商品支持【全国配】，边远地区除外。支付后24小时内发货，约2~7天为您送达。不支持7天无理由退货，发货后不能取消订单，请慎拍。
+                    </span>
+                </div>
+            </div>
+            <div class="car" id="car">
+                <p class="tips">&nbsp;&nbsp;&nbsp;&nbsp;提示<span id="close">&times;</span></p>
+                <div class="num">
+                    <img src="../img/carbg.png" alt="">
+                    <span class="join">已经成功加入购物车</span>
+                    <p>购物车内共计<span>1</span>件商品,合计<em>￥100.00</em>元</p>
+                </div>
+                <p class="btnall"><button class="jx"><a href="index.html">继续购物</a></button><button class="pay"><a href="carlist.html">去购物车结算</a></button></p>
+            </div>
+        </div>
+    </div>
+    <div id="index_footer"></div>
+</body>
+</html>

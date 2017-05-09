@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<script src="../lib/require.js" data-main="../js/regconfig"></script>
+	</head>
+	<body>
+		<div class="regOK">
+			注册成功,正在跳转登录页面...
+		</div>
+		<div class="header">
+
+			<!--头部中间部分-->
+			<div class="headerBody">
+				<div class="center">
+					<div class="log">
+						<a href="index.html"></a>
+					</div>
+					<!--购物车-->
+					<div class="headerbiaoyu">
+						您好，欢迎您来到华润e万家！
+						<span>|</span>
+						<a href="#">
+							帮助中心
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mainUser">
+			<div class="empty"></div>
+			<div class="center">
+				<div class="panel">
+					<div class="panelHd"><h1>用户注册</h1><a href="login.html" target="_blank" class="float_r signin">用户登录</a></div>
+					<div class="panelBd">
+						<!-- <form action="" method="post" id="registerForm"> -->
+							<div class="reg_layout">
+								<p>
+									<label for="username"><span>*</span>用户名:</label>
+									<input type="text" name="username" id="username" placeholder="请输入您的用户名，支持4-20字符" maxlength="20">
+								</p>
+								<p>
+									<label for="telphone"><span>*</span>手机号码:</label>
+									<input type="text" name="telphone" id="telphone" placeholder="输入您的手机号码" maxlength="11">
+								</p>
+								<p>
+									<label for="psw"><span>*</span>设置密码 : </label>
+									<input type="password" name="psw" id="psw" placeholder="请设置您的密码，支持6-20位字符，区分大小写" maxlength="20" >
+								</p>
+								<p>
+									<label for="respsw"><span>*</span>确认密码 : </label>
+									<input type="password" name="respsw" id="respsw" placeholder="请确认密码" >
+								</p>
+								<div class="seccode">
+									<p class="code_main">
+										<label for="inputCode"><span>*</span>验证码 : </label>
+										<input type="text" name="inputCode" id="inputCode" maxlength="4" placeholder="请填写验证码">
+		                                <span class="code" id="idcode">0q7S</span>
+		                                <a id="codeClick">看不清,换一张?</a>
+		                            </p>
+								</div>
+								<div class="deal">
+									<input type="checkbox" id="chekBox" />
+		                       		我已阅读并同意<a>e万家服务协议</a>
+		                        </div>
+		                        <p><button id="btn">完成注册</button></p>
+		                        <div class="user_firm"><a>企业用户注册></a></div>
+							</div>
+						<!-- </form> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="center">
+				<div class="copyright">
+					<div class="copyMe">
+						<a href="#">关于我们</a>|
+						<a href="#">联系我们</a>|
+						<a href="#">触屏版 </a>
+						<span>Copyright@华润万家有限公司 <i>粤ICP备05036369号</i>-4ewj.com 版权所有</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

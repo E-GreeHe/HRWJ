@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		<script src="../lib/require.js" data-main="../js/loginconfig"></script>
+	</head>
+	<body>
+		<div class="header">
+
+			<!--头部中间部分-->
+			<div class="headerBody">
+				<div class="center">
+					<div class="log">
+						<a href="index.html"></a>
+					</div>
+					<!--购物车-->
+					<div class="headerbiaoyu">
+						您好，欢迎您来到华润e万家！
+						<span>|</span>
+						<a href="#">
+							帮助中心
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="mainUser">
+			<div class="empty"></div>
+			<div class="center">
+				<div class="panel">
+					<div class="panelHd"><h1>用户登录</h1><a href="register.html" target="_blank" class="float_r signin">新用户注册</a></div>
+					<div class="panelBd">
+						<div class="advertisement">
+							<a href="../index.html"><img src="../img/advertisement.jpg"/></a>
+						</div>
+						<div class="login">
+							<!-- <form action="" method="post"> -->
+								<p>
+									<label for="username"><span>&nbsp;</span>登录名 :</label>
+									<input type="text" name="username" id="username" placeholder="邮箱/用户名/已验证手机" />
+								</p>
+								<p>
+									<label for="password"><span>&nbsp;</span>密码:</label>
+									<input type="password" name="password" id="password" placeholder="请输入您的密码" />
+								</p>
+								<p>
+									<label for="inputCode"><span>&nbsp;</span>验证码 : </label>
+									<input type="text" name="inputCode" id="inputCode" maxlength="4" placeholder="请填写验证码" class="code_main" />
+	                                <span class="code" id="idcode">as57</span>
+	                                <a id="codeClick">看不清，换一张?</a>
+	                            </p>
+	                            <p><button id="btn">登录</button></p>
+							<!-- </form> -->
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="center">
+				<div class="copyright">
+					<div class="copyMe">
+						<a href="#">关于我们</a>|
+						<a href="#">联系我们</a>|
+						<a href="#">触屏版 </a>
+						<span>Copyright@华润万家有限公司 <i>粤ICP备05036369号</i>-4ewj.com 版权所有</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

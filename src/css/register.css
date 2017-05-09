@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+
+.mainUser .panel{height: 690px;margin-bottom: 50px;}
+
+.mainUser .panel .panelBd{height: 562px; padding: 35px 45px 45px;background-color: #fff;border-top: 3px solid #eee;}
+
+.seccode{width: 900px;height: 54px;}
+.seccode input{width: 200px;}
+.seccode .code{width: 90px;height: 30px;line-height: 30px; display: inline-block;background: url(../img/code.png);margin-left: 10px;vertical-align: middle;text-align: center;cursor: pointer;}
+.code_main a{font-size: 12px;}
+.code_main a:hover{text-decoration: underline;}
+
+.mainUser .panel .reg_layout{width: 900px;height: 556px;margin-left: 200px;}
+.mainUser .panel .reg_layout p{height: 54px;line-height: 54px;font-size: 14px}
+.mainUser .panel .reg_layout label{height: 54px;width: 200px;display: inline-block;text-align: right;padding-right: 15px;}
+.mainUser .panel .reg_layout p input{height: 20px;padding: 15px;width: 374px;line-height: 52px;}
+.mainUser .panel .reg_layout label span{color: #e14041;margin-right: 10px;font-size: 12px;}
+
+/*.mainUser .panel .reg_layout .seccode{width: 900px;height: 54px;}
+.mainUser .panel .reg_layout .seccode input{width: 200px;}
+.mainUser .panel .reg_layout .seccode .code{width: 90px;height: 30px;line-height: 30px; display: inline-block;background: url(../img/code.png);margin-left: 10px;vertical-align: middle;text-align: center;}
+.mainUser .panel .reg_layout .code_main a{font-size: 12px;}
+.mainUser .panel .reg_layout .code_main a:hover{text-decoration: underline;}*/
+
+.mainUser .panel .reg_layout p i{width: 13px;height: 13px;display: inline-block;background: url(../img/yes.png);}
+.mainUser .panel .deal{width: 900px;height: 54px;line-height: 54px;margin-top: 14px;font-size: 14px;}
+.mainUser .panel .deal input{width: 12px;height: 12px;border: none;outline: none;margin-left: 150px;}
+.mainUser .panel .deal a{display: inline-block;margin-left: 10px;text-decoration: underline;color: #E60000;cursor: pointer;}
+.mainUser .panel button{width: 405px;height: 50px;border: none;background: #E60000;font-size: 24px;color: #fff;margin-left: 120px;cursor: pointer;}
+.mainUser .panel .user_firm{width: 900px;height: 54px;line-height: 54px;font-size: 14px}
+.mainUser .panel .user_firm a{color: #0000ee;display: block;margin-left: 140px;}
+
+.regOK{width: 300px;height: 80px;line-height: 80px;background-color: #ffc;border: 1px solid red;float: left;position: absolute;left: 0;right: 0;margin: auto;margin-top: 320px;z-index: 1;text-align: center;display: none;}

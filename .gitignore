@@ -1,0 +1,4 @@
+﻿#过滤node_modules
+node_modules
+#过滤doc  txt等文档
+doc

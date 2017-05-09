@@ -1,0 +1,109 @@
+/*@import url("public.css");*/
+@charset "utf-8";
+
+
+/*轮播、导航部分*/
+.banner{width: 100%;height: 440px;background: #ddd;position: relative;}
+.banner .center{position: relative;top: -440px;z-index: 5;}
+.banner .bannerNav{position: absolute;left: 0;right: 0;width: 200px;height: 440px; background-color: #fff;z-index: 999;}
+.banner .bannerNav li{height: 36px;border-bottom: 1px solid #ddd;line-height: 36px;text-align: center;padding-left: 40px;}
+.banner .bannerNav li a{display: block;font-size: 14px;}
+.banner .bannerNav li.active{background: url(../img/blibg.jpg) no-repeat right center;}
+.banner .flex-control-nav{width: 500px;height: 21px;display: inline-block;position: absolute;left: 0;right: 0;margin: auto;}
+
+
+/*轮播样式*/
+.flexslider{position:relative;height:440px;overflow:hidden;background:url(../img/loading.gif) 50% no-repeat;cursor: pointer;}
+.slides{position:relative;z-index:1;}
+.slides li{height:440px;}
+.flex-control-nav{position:absolute;bottom:10px;z-index:2;width:100%;text-align:center;}
+.flex-control-nav li{display:inline-block;width:14px;height:14px;margin:0 5px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:14px;height:14px;line-height:40px;overflow:hidden;background:url(../img/dot.png) right 0 no-repeat;cursor:pointer;}
+.flex-control-nav .flex-active{background-position:0 0;}
+.flex-direction-nav{position:absolute;z-index:3;width:100%;top:45%;}
+.flex-direction-nav li a{display:inline-block;width:50px;height:50px;overflow:hidden;cursor:pointer;position:absolute;}
+/*.flex-direction-nav li a.flex-prev{left:40px;background:url(../img/prev.png) center center no-repeat;}
+.flex-direction-nav li a.flex-next{right:40px;background:url(../img/next.png) center center no-repeat;}*/
+
+
+
+
+
+
+.shopSpree{margin-top: 20px;padding-top: 30px;}
+.shopSpree .center{background-color: #ffd93f;position: relative;height: 485px;display: block;}
+.shopSpree .center .title{width: 645px;height: 92px;position: relative;top: 0px; left: 0;right: 0;margin: auto;display: block;}
+.shopSpree .center .title .catoon{width: 98px;height: 116px; background: url(../img/14840057.png) no-repeat;position: absolute;top: -30px;}
+.shopSpree .center .title .dead_time{width: 520px;height: 64px;position: absolute;left: 120px;margin-top: 15px;line-height: 64px;background-color: #f5c501;opacity: .5;}
+.shopSpree .center .title .dead_time div{float: left;}
+.shopSpree .center .title .dead_time .bg14035{width: 122px;height: 40px;border-right: 1px solid #ddd;margin-top: 10px;}
+.shopSpree .title .dead_time .timeOut{width: 390px;margin-left: 5px;}
+.shopSpree .title .dead_time .timeOut span{padding-right: 10px;color: #f00;}
+.shopSpree .title .dead_time .timeOut em{padding-right: 5px;font-style: normal;font-size: 12px}
+
+.shopSpree .shop_cout{position: absolute;top: 90px; padding: 0 40px;}
+.shopSpree .shop_cout ul{width: 1120px;height: 390px; overflow: hidden;}
+
+.shopSpree .shop_cout li{float: left;width: 260px;height: 366px;background-color: #fff;padding: 0 5px; margin-right: 10px;position: relative;}
+.shopSpree .shop_cout li:fisrt-child{height: 366px;background-color: red;}
+.shopSpree .shop_cout li:last-child{margin-right: 0;}
+
+.shopSpree .shop_cout li a{width: 258px;height: 258px;display: inline-block;}
+
+.shopSpree .shop_cout li .jx_box{top: 225px;}
+.shopSpree .shop_cout li .shop_name{border-bottom: none;}
+
+.shopSpree .shop_cout li .shop_name span{width: 258px;}
+
+.shopSpree .shop_cout li .price{width: 258px; height: 52px;position: absolute;left: 0;bottom: 10px;border-top: 1px solid #ddd;}
+.shopSpree .shop_cout li .price span{font-size: 32px;color: #e60000;}
+.shopSpree .shop_cout li .price em{font-size: 22px;color: #E60000;font-style: normal;}
+.shopSpree .shop_cout li .price s{margin-left: 20px;font-size: 14px;color: #959595;}
+.shopSpree .shop_cout li .info{display: block; width: 260px;height: 54px;position: absolute;
+top: 235px;left: 5px;overflow: hidden;}
+.shopSpree .shop_cout li .info a{width: 260px;height: 54px;font-size: 14px;
+color: #959595;background-color: #fff;text-overflow: ellipsis;overflow: hidden;
+word-break: break-all;display: none;position: absolute;top: 75px;z-index: 1}
+
+/*楼层商品*/
+.floor{margin-top: 20px;}
+.floor .center{background-color: #fff;}
+.floor .flTitle{height: 38px; border-bottom: 2px solid #E60000;}
+.floor1 .floorPro{height: 390px;}
+.floor .floorPro .tag{position: absolute;left: 10px;top: 5px;z-index: 1}
+.floor .floorPro .tag a{width: 100%;height: 100%; display: block;width: 54px;height: 24px;}
+.floor .floorPro .tag a img{width: 100%;height: 100%;}
+.floor1 .floorPro ul{width: 100%;height: 390px;overflow: hidden;}
+.floor1{height: 430px;}
+.floor1 .floorPro ul li{float: left;width: 217px;height: 100%;position: relative;border-right: 1px solid #ddd;padding: 0 10px;}
+.floor1 .floorPro ul li:last-child{border: none;}
+.floor1 .floorPro ul li .jx_box{top: 190px;}
+.floor1 .floorPro ul li .shop_name{margin-top: 25px;}
+.floor1 .floorPro ul li .shop_name span{color: #252525;height: 19px;line-height: 19px;}
+.floor1 .floorPro .intro p{width: 195px;height: 40px;overflow: hidden;}
+.floor1 .floorPro .intro a{width: 195px;font-size: 14px;
+line-height: 20px;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;word-break: break-all;-webkit-box-orient: vertical;
+}
+.floor1 .floorPro .price{width: 195px;font-size: 24px;color: #e60000;}
+.floor1 .floorPro .price strong{font-weight: normal;}
+.floor1 .floorPro .price span s{font-size: 14px;color: #959595;font-style: normal;margin-left: 20px;}
+.floor2{height: 670px;}
+.floor2 .floorPro ul{background: #ededed;width: 1190px;height: 620px;}
+.floor2 .floorPro ul li{float: left;position: relative;width: 590px;height: 300px;margin: 0 10px 10px 0; background: #fff;}
+.floor2 .floorPro ul li:nth-child(2),
+.floor2 .floorPro ul li:nth-child(4){margin-right: 0;}
+.floor2 .floorPro ul li:nth-child(3),
+.floor2 .floorPro ul li:nth-child(4){margin-bottom: 0px;}
+.floor2 .floorPro .nsLeft{width: 280px;height: 280px;margin-left: 10px;position: absolute;}
+.floor2 .floorPro .nsright{position: absolute;width: 260px;height: 240px;left: 280px;padding: 30px 20px;}
+.floor2 .floorPro .nsright .jx_box{font-size: 14px;height: 28px;line-height: 28px;padding-bottom: 10px; border-bottom: 1px solid #eee;width: 260px;}
+/*.floor2 .floorPro .nsright .jx_b p{}*/
+.floor2 .floorPro .nsright .jx_box .title{font-size: 14px;line-height: 14px;padding: 7px 0;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;width: 260px;border-bottom: 1px solid #eee; }
+.floor2 .floorPro .nsright .jx_box .intro{height: 60px;overflow: hidden;font-size: 12px;color: #959595;-webkit-line-clamp: 2;word-break: break-all;line-height: 20px;text-overflow: ellipsis;-webkit-box-orient: vertical;font-weight: normal;}
+.floor2 .floorPro .nsright .jx_box .price{color: #e60000;font-size: 24px;}
+.floor2 .floorPro .nsright .jx_box .price strong{font-size: 32px;font-weight: normal;}
+.floor2 .floorPro .nsright .jx_box .price{margin: 0;}
+.floor2 .floorPro .nsright .jx_box button{width: 180px;height: 40px;margin-top: 10px;border: 1px solid #e60000;background-color: #fff;}
+.floor2 .floorPro .nsright .jx_box button:hover{background-color: #e60000;color: #fff;cursor: pointer;}
+
+.floorBox{height: 460px;background-color: #fff;}

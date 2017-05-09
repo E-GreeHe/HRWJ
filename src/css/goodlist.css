@@ -1,0 +1,15 @@
+@charset "utf-8";
+.goodlist .product1,.product2,.product3,.product4{margin: 50px 0;}
+.goodlist .fltitle{height: 43px;border-bottom: 2px solid #252525;}
+.goodlist .product_tab{position: relative;left: 688px;top: -44px;height: 45px;width: 505px;}
+.goodlist .product_tab span{padding: 0 20px; height: 43px;line-height: 43px;border: 1px solid #eee;display: inline-block;cursor: pointer;float: right;}
+.goodlist .product .product_tab span:hover{color: #e60000;border: 1px solid #252525;border-bottom: none;}
+.goodlist .product .fltitle img{display: inline-block;position: relative;left: 0;top: 0;}
+.goodlist .list{width: 1190px;overflow: hidden;}
+.fltitle ul{width: 1190px;}
+.list ul li{width: 230px;height: 290px;float: left;margin-bottom: 10px;margin-right: 10px; background: #fff;}
+.list ul li:nth-child(5),.list ul li:nth-child(10){margin-right: 0;}
+.list ul li img{margin: 10px;width: 210px;height: 210px;}
+.list .title{width: 200px;padding: 0 10px;overflow: hidden;text-overflow: ellipsis;height: 19px;line-height: 19px;font-size: 14px;white-space: nowrap;margin: 0;}
+.list .price{width: 200px;margin: 0;height: 40px;line-height: 40px;padding: 0 10px;color: #c04040;}
+.list .price strong{font-size: 26px;font-weight: normal;}

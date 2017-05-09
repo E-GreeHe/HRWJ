@@ -1,0 +1,17 @@
+@charset "utf-8";
+.mainUser{margin-bottom: 50px;}
+.mainUser .panel{height: 428px;}
+.mainUser .panel .panelBd{height: 330px;padding: 25px 0; background-color: #fff;border-top: 3px solid #eee;position: relative;}
+.advertisement{width: 330px;height: 330px;position: absolute;left: 100px;}
+.advertisement a{width: 330px;height: 330px;}
+.advertisement a img{width: 100%;height: 100%;}
+
+.mainUser .login{position: absolute;left: 540px;top: 55px;width:650px;  height: 325px;font-size: 14px;overflow: hidden;}
+.mainUser .login p{height: 50px;line-height: 50px;margin-top: 5px;}
+.mainUser .login label{width: 150px;height: 50px;line-height: 50px;display: inline-block;text-align: right;}
+.mainUser .login p span{width: 100px;height: 50px;line-height: 50px; text-align: right;display: inline-block;}
+.mainUser .login p input{width: 380px; height: 24px;padding: 11px 10px;margin-left: 5px;display: inline-block;}
+.mainUser .login .code_main{width: 180px;}
+.mainUser .login .code{width: 95px;height: 30px;line-height: 30px;display: inline-block;vertical-align: middle;text-align: center;background: url(../img/code.png);margin: 0 10px;}
+.mainUser .login p a{font-size: 12px;}
+.mainUser .login button{width: 405px;height: 50px;margin-left: 110px;}

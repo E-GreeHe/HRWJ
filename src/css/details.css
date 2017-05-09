@@ -1,0 +1,117 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.detail{margin: 20px 0;}
+.detail .center{position: relative;}
+/******放大镜******/
+/*主容器*/
+.con-FangDa{
+    width: 300px;
+    background-color:#fff;
+}
+/*正常容器*/
+.con-fangDaIMg{
+    width: 300px;
+    height: 450px;
+    position: relative;
+    background-color: #454545;
+}
+.con-fangDaIMg > img{
+    width: 100%;
+    height:100%
+}
+/*滑块*/
+.magnifyingBegin{
+    width: 150px;
+    height: 175px;
+    left: 0;
+    top: 0;
+    background-color: #454545;
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+    position: absolute;
+    cursor: move;
+    display: none;
+}
+/*放大镜显示区域*/
+.magnifyingShow{
+    width: 450px;
+    height: 514px;
+    display: none;
+    position: absolute;
+    right: -470px;
+    top: 0;
+    overflow: hidden;
+    background-color: #454545;
+    z-index: 1;
+}
+.magnifyingShow > img{
+    width: 900px;
+    height: 1350px;
+    margin-left:0;
+    margin-top: 0;
+}
+/*设置选择图片容器*/
+.con-FangDa-ImgList{
+    margin-top:10px;
+    height:54px;
+    width:320px;
+    list-style: none;
+}
+.con-FangDa-ImgList > li{
+    margin-right:7px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    cursor: pointer;
+    border: 2px solid #666;
+    background-color: #454545;
+    text-align:center;
+}
+
+.con-FangDa-ImgList > li > img{
+    vertical-align:top;
+    display:inline;
+    width:auto;
+    height:50px;
+}
+.con-FangDa-ImgList > .active{
+    border-color:#000;
+}
+/*介绍 购买*/
+.content{position: absolute;top: 10px;left: 360px;width: 780px;height: 485px;font-size: 14px;color: #333;}
+.content p{margin: 0;position: relative;}
+.content .title{font-size: 22px;line-height: 26px; }
+.content .intro{height: 40px;line-height: 20px;color: #555;margin: 25px 0;}
+.content .price{height: 70px;line-height: 70px;border-bottom: 1px solid #dedede;}
+.content .price span{color: #e14041;font-size: 26px;padding: 0 15px;}
+.content .price span strong{font-size: 38px;font-weight: normal;}
+.content .num{height: 30px;margin-top: 20px;line-height: 30px;position: relative;}
+.content .num span{display: inline-block;height: 30px;position: absolute;left: 190px;font-size: 12px;color: #999;}
+.content .num span em{font-style: normal;color: #e14041;padding: 0 5px;}
+.content .num input{line-height: 28px;height: 28px;border: 1px solid #d1d1d1;width: 50px;text-align: center;margin: 0 10px;padding: 0;display: inline-block;position: absolute;left: 75px;outline: none;}
+.content .num .less{background: url(../img/less.png) no-repeat center;width: 12px;height: 30px;display: inline-block;position: absolute;left: 60px;}
+.content .num .add{background: url(../img/add.png) no-repeat center;width: 12px;height: 30px;display: inline-block;position: absolute;left: 150px;}
+.content .city{margin-top: 25px;height: 30px;line-height: 30px;}
+.content .city span{width: 200px;height: 30px;display: inline-block;padding: 0 10px;margin-left: 10px;position: relative;text-align: center;}
+.content .city em{font-style: normal;}
+.content .buy{margin-top: 20px;height: 45px;line-height: 45px;}
+.content .buy button{height: 45px;width: 190px;background: #e14041;cursor: pointer;outline: none;}
+.content .buy button:hover{background: #fe7171;}
+.content .tips{margin-top: 20px;}
+.content .tips span{display: block;}
+
+.detail .car{width: 600px;height: 180px;position: absolute;display: none;background-color: #fff;left: 360px;top: 205px;border: 1px solid #333;}
+.detail .car .tips{height: 40px;background-color: #ededed;border-bottom: 1px solid #333;line-height: 40px;font-size: 14px;}
+.detail .car .tips span{float: right;height: 20px;width: 20px;line-height: 20px;font-size: 14px;color: #959595; text-align: center;border: 1px solid #959595; border-radius: 50%;display: inline-block;margin: 10px 10px 0 0;cursor: pointer;}
+.detail .car .num{height: 70px;}
+.detail .car .num .join{height: 40px;line-height: 40px;font-size: 24px;color: #78b135;position: absolute;left: 60px;}
+.detail .car .num p{width: 300px;position: absolute;left: 60px;font-size: 14px;margin: 0;}
+.detail .car .num p em{font-style: normal;}
+.detail .car .btnall{height: 42px;line-height: 42px;width: 600px;}
+.detail .car .btnall button{height: 40px;width: 120px;outline: none;}
+.detail .car .btnall .jx{margin-left: 60px;}
+.detail .car .btnall .pay{margin-left: 20px;background-color: #e14041;border: none;}
+.detail .car .btnall .pay a{color: #fff;}
